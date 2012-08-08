@@ -8,9 +8,9 @@ import sys
 from collections import deque
 
 import __init__
-from __init__ import Scss, log, spawn_rule, to_str, profiling
-from __init__ import _prop_split_re
-from scss_meta import BUILD_INFO
+from . import Scss, log, spawn_rule, to_str, profiling
+from . import _prop_split_re
+from .scss_meta import BUILD_INFO
 
 log.setLevel(logging.INFO)
 
